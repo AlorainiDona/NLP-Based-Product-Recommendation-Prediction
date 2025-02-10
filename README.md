@@ -14,6 +14,22 @@ The repository contains the following files:
 ├── notebook.ipynb                  # Jupyter Notebook with step-by-step analysis
 ```
 
+## Dataset Information
+
+The dataset consists of 18,442 rows and the following columns:
+
+| Column Name               | Description |
+|---------------------------|-------------|
+| `Clothing ID`             | Unique identifier for each clothing item |
+| `Age`                     | Age of the reviewer |
+| `Title`                   | Short title of the review |
+| `Review Text`             | Full customer review text |
+| `Positive Feedback Count`  | Number of users who found the review helpful |
+| `Division Name`           | High-level division of the product |
+| `Department Name`         | Department category for the product |
+| `Class Name`              | Specific class of the product |
+| `Recommended IND`         | Target variable (1 if recommended, 0 if not) |
+
 ## Data Processing
 
 - Missing values in the `Title` and `Review Text` columns are replaced with empty strings.
@@ -71,12 +87,4 @@ $ python ecommerce_reviews_analysis.py
 - Experiment with additional NLP techniques such as sentiment scoring and topic modeling.
 - Optimize hyperparameter tuning with a broader search space.
 - Try other classifiers like XGBoost or deep learning models for better performance.
-
-## Contributors
-
-👤 **Your Name** - Data Scientist
-
-## License
-
-📝 This project is licensed under the **MIT License**.
 
