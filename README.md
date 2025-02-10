@@ -1,6 +1,4 @@
 # NLP-Based-Product-Recommendation-Prediction
-# Fashion Forward Forecasting - README
-
 ## Project Overview
 
 This project focuses on predicting whether a customer would recommend a product based on various features, including review text, age, product category, and other relevant attributes. The dataset consists of women's e-commerce clothing reviews, and the objective is to build a machine learning model that provides accurate recommendations.
