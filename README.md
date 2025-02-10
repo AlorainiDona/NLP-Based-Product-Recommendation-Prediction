@@ -8,10 +8,10 @@ This project focuses on predicting whether a customer would recommend a product 
 The repository contains the following files:
 
 ```bash
-├── ecommerce_reviews_analysis.py  # Main script for data processing & model training
-├── reviews.csv                    # Dataset containing clothing reviews
-├── README.md                       # Project overview and repository structure
-├── notebook.ipynb                  # Jupyter Notebook with step-by-step analysis
+├── NLP-Based-Product-Recommendation-Prediction.py  # Main script for data processing & model training
+├── reviews.csv                                     # Dataset containing clothing reviews
+├── README.md                                       # Project overview and repository structure
+├── Fashion Forward Forecasting.ipynb              # Jupyter Notebook with step-by-step analysis
 ```
 
 ## Dataset Information
@@ -70,16 +70,16 @@ The model shows strong recall for the recommended class while maintaining balanc
 
 ```bash
 # Clone the repository
-$ git clone https://github.com/your-username/fashion-forward-forecasting.git
+$ git clone https://github.com/your-username/NLP-Based-Product-Recommendation-Prediction.git
 
 # Navigate to the project directory
-$ cd fashion-forward-forecasting
+$ cd NLP-Based-Product-Recommendation-Prediction
 
 # Install dependencies
 $ pip install -r requirements.txt
 
 # Run the main script
-$ python ecommerce_reviews_analysis.py
+$ python NLP-Based-Product-Recommendation-Prediction.py
 ```
 
 ## Future Improvements
@@ -87,4 +87,3 @@ $ python ecommerce_reviews_analysis.py
 - Experiment with additional NLP techniques such as sentiment scoring and topic modeling.
 - Optimize hyperparameter tuning with a broader search space.
 - Try other classifiers like XGBoost or deep learning models for better performance.
-
