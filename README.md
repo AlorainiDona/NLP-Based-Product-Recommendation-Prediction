@@ -75,9 +75,6 @@ $ git clone https://github.com/AlorainiDona/NLP-Based-Product-Recommendation-Pre
 # Navigate to the project directory
 $ cd NLP-Based-Product-Recommendation-Prediction
 
-# Install dependencies
-$ pip install -r requirements.txt
-
 # Run the main script
 $ python NLP-Based-Product-Recommendation-Prediction.py
 ```
