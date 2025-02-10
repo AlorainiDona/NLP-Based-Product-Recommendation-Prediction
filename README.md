@@ -70,7 +70,7 @@ The model shows strong recall for the recommended class while maintaining balanc
 
 ```bash
 # Clone the repository
-$ git clone https://github.com/your-username/NLP-Based-Product-Recommendation-Prediction.git
+$ git clone https://github.com/AlorainiDona/NLP-Based-Product-Recommendation-Prediction.git
 
 # Navigate to the project directory
 $ cd NLP-Based-Product-Recommendation-Prediction
